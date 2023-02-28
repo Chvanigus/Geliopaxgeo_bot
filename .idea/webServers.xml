@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="ae1c0d44-b804-4093-a8b1-662c78d804cd" name="192.168.0.19">
+        <fileTransfer rootFolder="/home/sysop/telegrambot" accessType="SFTP" host="192.168.0.19" port="22" sshConfigId="d60fc7a0-f928-490d-9aae-c365a7adf9d3" sshConfig="sysop@192.168.0.19:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
