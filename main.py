@@ -188,7 +188,6 @@ class WeatherArchive:
         send_bot_message(users=self.query.message.chat.id, text=text, keyboard=keyboard)
 
 
-# IT'S DONE
 class Forecast:
     """ Класс создания меню прогноза погоды"""
 
@@ -261,7 +260,6 @@ class Forecast:
         send_bot_message(users=self.query.message.chat.id, text=text, keyboard=keyboard)
 
 
-# IT'S DONE
 def answer_about_cameras(query: telebot.types.CallbackQuery) -> None:
     """ Ответ на запрос о состоянии камер по всем хозяйствам"""
     bot.send_chat_action(chat_id=query.message.chat.id,
@@ -284,7 +282,6 @@ def answer_about_cameras(query: telebot.types.CallbackQuery) -> None:
     send_bot_message(users=query.message.chat.id, text=text, keyboard=keyboard)
 
 
-# IT'S DONE
 def answer_about_weather_stations(query: telebot.types.CallbackQuery) -> None:
     """ Ответ на запрос о состоянии метеостанций"""
 
@@ -308,7 +305,6 @@ def answer_about_weather_stations(query: telebot.types.CallbackQuery) -> None:
     send_bot_message(users=query.message.chat.id, text=text, keyboard=keyboard)
 
 
-# IT'S DONE
 @get_agro_from_user
 def answer_about_weather_battery(query: telebot.types.CallbackQuery) -> None:
     """ Ответ на запрос о состоянии батареек в выбранном Агро"""

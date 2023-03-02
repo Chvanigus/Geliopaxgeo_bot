@@ -101,8 +101,8 @@ def retry_send_msg(func):
             try:
                 result = func(*args, **kwargs)
                 return result
-            except Exception as e:
-                logger.critical(f'Невозможно отправить сообщение. Ошибка: {e}')
+            except Exception:
+                pass
     return wrapper
 
 
